@@ -14,3 +14,12 @@ npm install -g verdaccio-htpasswd
 ```
 npm adduser --registry http://localhost:4873
 ```
+
+### 添加依赖
+```
+npm install -g nrm
+nrm add dnpm http://localhost:4873
+nrm use dnpm
+nrm test dnpm
+npm login
+```
