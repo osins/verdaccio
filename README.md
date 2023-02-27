@@ -1,3 +1,8 @@
+### 启动docker服务
+```
+docker-compose up -d
+```
+
 ### 添加登录用户
 
 ### step1 本地安装 verdaccio-htpasswd
